@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 <h1 align="center">ChatGPT Exporter</h1>
 
 <div align="center">
@@ -27,14 +29,14 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](./README_ID.md) &nbsp;&nbsp;|&nbsp
 
 [<img src="https://user-images.githubusercontent.com/3750161/214147732-c75e96a4-48a4-4b64-b407-c2402e899a75.PNG" height="60" alt="Chrome" valign="middle">][link-chrome] &nbsp;&nbsp; [<img src="https://user-images.githubusercontent.com/3750161/214148610-acdef778-753e-470e-8765-6cc97bca85ed.png" height="60" alt="Firefox" valign="middle">][link-firefox] &nbsp;&nbsp; [<img src="https://user-images.githubusercontent.com/3750161/233201810-d1026855-0482-44c8-b1ec-c7247134473e.png" height="60" alt="Chrome" valign="middle">][link-edge]
 
-[link-chrome]: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo 'Chrome Web Store'
-[link-firefox]: https://addons.mozilla.org/firefox/addon/tampermonkey 'Firefox Add-ons'
-[link-edge]: https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd 'Edge Add-ons'
+[link-chrome]: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo "Chrome Web Store"
+[link-firefox]: https://addons.mozilla.org/firefox/addon/tampermonkey "Firefox Add-ons"
+[link-edge]: https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd "Edge Add-ons"
 
 ### UserScript
 
-| Greasyfork                                                                        | GitHub                                                                                       |
-| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Greasyfork                                   | GitHub                                       |
+| -------------------------------------------- | -------------------------------------------- |
 | [![Install][Install-1-image]][install-1-url] | [![Install][Install-2-image]][install-2-url] |
 
 [Install-1-image]: https://img.shields.io/badge/-Install-blue
@@ -52,11 +54,11 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](./README_ID.md) &nbsp;&nbsp;|&nbsp
 
 ## 📚 Supported Formats
 
-- [Text](#text)
-- [HTML](#html)
-- [Markdown](#markdown)
-- [PNG](#screenshot)
-- [JSON](#json)
+-   [Text](#text)
+-   [HTML](#html)
+-   [Markdown](#markdown)
+-   [PNG](#screenshot)
+-   [JSON](#json)
 
 ## 💡 Example
 
@@ -138,9 +140,7 @@ the raw content from API `https://chat.openai.com/backend-api/conversation/[id]`
                 "create_time": 1678015311.655875,
                 "content": {
                     "content_type": "text",
-                    "parts": [
-                        ""
-                    ]
+                    "parts": [""]
                 },
                 "end_turn": true,
                 "weight": 1,
@@ -148,15 +148,11 @@ the raw content from API `https://chat.openai.com/backend-api/conversation/[id]`
                 "recipient": "all"
             },
             "parent": "9310b90f-d8f0-4be6-bac2-daacddac784f",
-            "children": [
-                "4afb9720-3a88-49b1-9309-e2b53d607f34"
-            ]
+            "children": ["4afb9720-3a88-49b1-9309-e2b53d607f34"]
         },
         "9310b90f-d8f0-4be6-bac2-daacddac784f": {
             "id": "9310b90f-d8f0-4be6-bac2-daacddac784f",
-            "children": [
-                "5c48fa3e-e4ee-4d00-aa66-8fbcb671a358"
-            ]
+            "children": ["5c48fa3e-e4ee-4d00-aa66-8fbcb671a358"]
         },
         "4afb9720-3a88-49b1-9309-e2b53d607f34": {
             "id": "4afb9720-3a88-49b1-9309-e2b53d607f34",
@@ -169,9 +165,7 @@ the raw content from API `https://chat.openai.com/backend-api/conversation/[id]`
                 "create_time": 1678015311.656259,
                 "content": {
                     "content_type": "text",
-                    "parts": [
-                        "write an poem about the Turing test"
-                    ]
+                    "parts": ["write an poem about the Turing test"]
                 },
                 "weight": 1,
                 "metadata": {
@@ -180,9 +174,7 @@ the raw content from API `https://chat.openai.com/backend-api/conversation/[id]`
                 "recipient": "all"
             },
             "parent": "5c48fa3e-e4ee-4d00-aa66-8fbcb671a358",
-            "children": [
-                "7027f1a5-8bd5-4463-9869-8a1d1db2f9a1"
-            ]
+            "children": ["7027f1a5-8bd5-4463-9869-8a1d1db2f9a1"]
         },
         "7027f1a5-8bd5-4463-9869-8a1d1db2f9a1": {
             "id": "7027f1a5-8bd5-4463-9869-8a1d1db2f9a1",
@@ -218,6 +210,7 @@ the raw content from API `https://chat.openai.com/backend-api/conversation/[id]`
     "current_node": "7027f1a5-8bd5-4463-9869-8a1d1db2f9a1"
 }
 ```
+
 </details>
 
 ## 🤝 Contribution
